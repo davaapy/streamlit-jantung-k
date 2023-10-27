@@ -588,7 +588,7 @@ filename = "estimasi_apartment.sav"
 pickle.dump(lr,open(filename,'wb'))
 ```
 
-##Deployment
-[ My Klasifikasi Jantung ] ( https://app-jantung-k-f4fybnxqi5xe6foc66ofvi.streamlit.app/ )
-![Alt text](77.png)
-![Alt text](78.png)
+## Deployment
+- [ My Klasifikasi Jantung ] ( https://app-jantung-k-f4fybnxqi5xe6foc66ofvi.streamlit.app/ )
+- ![Alt text](77.png)
+- ![Alt text](78.png)
