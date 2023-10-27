@@ -11,7 +11,7 @@ cp = st.number_input(
     'Masukan atypical angina: nyeri dada tidak berhubungan dengan jantung')
 trestbps = st.number_input('Masukan chest pain type')
 chol = st.number_input('Masukan tekanan darah', step=1,
-                       max_value=250, min_value=1))
+                       max_value=250, min_value=1)
 fbs = st.number_input('Masukan serum cholestoral dalam mg/dl')
 restecg = st.number_input('Masukan fasting blood sugar')
 thalach = st.number_input('Masukan sinyal detak jantung yang tidak normal', min_value=60.0, step=0.1)
