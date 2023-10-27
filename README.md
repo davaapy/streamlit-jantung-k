@@ -584,7 +584,7 @@ cv_metrics.T.plot.bar(title="Cross-Validated Metrics", legend=False);
 ```bash
 import pickle
 
-filename = "estimasi_apartment.sav"
+filename = "Klasifikasi_JJJ.sav"
 pickle.dump(lr,open(filename,'wb'))
 ```
 
