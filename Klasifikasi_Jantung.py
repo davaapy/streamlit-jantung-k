@@ -5,15 +5,16 @@ model = pickle.load(open('Klasifikasi_JJJ.sav', 'rb'))
 
 st.title('Estimasi Klasifikasi Jantung')
 
-age = st.number_input('Masukan umur')
-sex = st.number_input('Masukan Gender,laki laki (Input1),perempuan (Input2)')
+age = st.number_input('Masukan umur', step=1, max_value=100, min_value=1)
+sex = st.number_input('Masukan Gender,laki laki (Input1),perempuan (Input2)', step=1, max_value=2, min_value=1)
 cp = st.number_input(
     'Masukan atypical angina: nyeri dada tidak berhubungan dengan jantung')
 trestbps = st.number_input('Masukan chest pain type')
-chol = st.number_input('Masukan tekanan darah')
+chol = st.number_input('Masukan tekanan darah', step=1,
+                       max_value=250, min_value=1))
 fbs = st.number_input('Masukan serum cholestoral dalam mg/dl')
 restecg = st.number_input('Masukan fasting blood sugar')
-thalach = st.number_input('Masukan sinyal detak jantung yang tidak normal')
+thalach = st.number_input('Masukan sinyal detak jantung yang tidak normal', min_value=60.0, step=0.1)
 exang = st.number_input('Masukan denyut jantung maksimum tercapai')
 oldpeak = st.number_input('Masukan diinduksi angina')
 slope = st.number_input('Masukan Depresi ST')
