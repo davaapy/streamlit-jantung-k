@@ -1,4 +1,3 @@
-# streamlit-jantung-k
 # Laporan Proyek Machine Learning
 
 ### Nama : M Daffa Alfikri
