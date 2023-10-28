@@ -591,3 +591,6 @@ import pickle
 filename = "Klasifikasi_JJJ.sav"
 pickle.dump(lr,open(filename,'wb'))
 ```
+[My Estimation](https://app-jantung-k-f4fybnxqi5xe6foc66ofvi.streamlit.app/).
+![Alt text](77.png)
+![Alt text](78.png)
